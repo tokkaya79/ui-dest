@@ -1,0 +1,18 @@
+.container {
+    max-width: 81rem;
+    margin: 0 auto;
+    & .header {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 2.5rem 1rem;
+    }
+    & .box{
+        display: flex;
+        & button{
+            margin-left: 2rem;
+        }
+    }
+
+}

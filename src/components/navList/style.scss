@@ -1,0 +1,14 @@
+.nav-list {
+    display: flex;
+    color: var(--text);
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.2;
+    & .item+.item{
+        margin-left: 2.5rem;
+    }
+    & .item-active {
+        color: var(--green-text);
+    }
+}

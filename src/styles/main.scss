@@ -23,6 +23,10 @@
     --btn-bg: var(--bg-green);
     --btn-bg-order: var(--bg-grey);
 }
+.container {
+    max-width: 81rem;
+    margin: 0 auto;
+}
 .title {
     font-family: 'Roboto Mono', monospace;
     font-weight: 770;
@@ -43,5 +47,4 @@
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
     font-weight: 770;
-
 }

@@ -1,4 +1,5 @@
-import Header from "./components/header/Header";
+
+import MainPage from './pages/MainPage';
 
 import './styles/main.scss';
 import './styles/reset.scss';
@@ -7,7 +8,7 @@ import './styles/reset.scss';
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <MainPage/>  
     </div>
   );
 }

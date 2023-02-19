@@ -1,0 +1,43 @@
+.header-content {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    & .text-box {
+        padding: 11rem 0 10rem 4rem;
+        max-width: 41rem;
+        display: flex;
+        flex-direction: column;
+        & h1 {
+            color: var(--title-text);
+            font-size: 3.8rem;
+            line-height: 1.2;
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 750;
+            margin-bottom: 2rem;
+            & span {
+                color: var(--green-text);
+            }
+        }
+        & p {
+            color: var(--text);
+            font-size: 1.5rem;
+            line-height: 1.5;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            margin-bottom: 2rem;
+            text-align: justify;
+            width: 89%;
+        }
+    }
+    & .img-box{
+        max-width: 49.4rem;
+        position: absolute;
+        right: -3.7rem;
+        top: 0;
+        & .img-header{
+           position: absolute;
+           left: 0;
+          
+        }
+    }
+}

@@ -1,13 +1,13 @@
-.icon-list{
+.icon-list {
     display: flex;
     align-items: center;
-    & img+img{
-        margin-left: 1rem;
+    & .row {
+        display: flex;
+        & img {
+            box-sizing: border-box;
+            width: 24px;
+            height: 24px;
+            margin-left: 1rem;
+        }
     }
-    & img {
-        box-sizing: border-box;
-        width: 24px;
-        height: 24px;
-    }
-   
 }

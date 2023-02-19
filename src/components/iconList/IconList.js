@@ -6,8 +6,11 @@ import search from './img/search.svg';
 const IconList = () => {
     return (
         <div className='icon-list'>
-            <img src={search} alt="icon" />
-            <img src={cart} alt="icon" />
+            <ul className='row'>
+                <li><img src={search} alt="icon" /></li>
+            
+                <li> <img src={cart} alt="icon" /></li>
+            </ul> 
 
         </div>
     )

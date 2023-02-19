@@ -1,7 +1,13 @@
-import Header from './header/Header'
+import Header from '../components/header/Header'
+import HeaderContent from '../components/headerContent/HeaderContent'
 
-export default function MainPage() {
+function MainPage() {
     return (
-        <Header />
+        <>
+           <Header />
+           <HeaderContent/>
+        </>
     )
 }
+
+export default MainPage

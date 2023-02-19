@@ -1,0 +1,24 @@
+.choose-us {
+    text-align: center;
+    & .text {
+        margin-bottom: 4rem;
+    }
+    & .preferenses,
+    .numbers {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 6rem;
+        padding: 0 6rem;
+        & .item {
+            & .subtitle {
+                margin: 2rem 0;
+            }
+            & .text {
+                font-size: 1.1rem;
+            }
+        }
+    }
+    & .numbers {
+        padding: 0 12rem;
+    }
+}

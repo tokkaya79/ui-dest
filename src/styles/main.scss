@@ -5,12 +5,12 @@
 // font-family: 'Roboto Mono', monospace;
 // font-family: 'Sofia Sans', sans-serif;
 
-:root{
-    --black: #181D19;
-    --green: #5FB848;
-    --tx-grey: #3B433E;
+:root {
+    --black: #181d19;
+    --green: #5fb848;
+    --tx-grey: #3b433e;
     --bg-grey: #494949;
-    --bg-green: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    --bg-green: linear-gradient(180deg, #64bb47 0%, #2c9553 100%);
     --white: #ffff;
 
     // light mood
@@ -22,5 +22,26 @@
     --text-order: var(--white);
     --btn-bg: var(--bg-green);
     --btn-bg-order: var(--bg-grey);
+}
+.title {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 770;
+    font-size: 3.4rem;
+    line-height: 1.5;
+    color: var(--title-text);
+}
+.text {
+    color: var(--text);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.subtitle {
+    color: var(--title-text);
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 770;
 
 }

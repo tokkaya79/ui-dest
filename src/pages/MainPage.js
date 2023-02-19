@@ -1,3 +1,4 @@
+import ChooseUs from '../components/chooseUs/ChooseUs'
 import Header from '../components/header/Header'
 import HeaderContent from '../components/headerContent/HeaderContent'
 
@@ -6,6 +7,9 @@ function MainPage() {
         <>
            <Header />
            <HeaderContent/>
+           <main>
+            <ChooseUs/>
+           </main>
         </>
     )
 }

@@ -12,7 +12,7 @@ const HeaderContent = () => {
                         Just <span>Eat healthy</span> food to live a healthier
                         life
                     </h1>
-                    <p>
+                    <p className='text'>
                         Enjoy a healthy life by eating healthy foods that have
                         extraordinary flavors that make your life healthier for
                         today and in the future

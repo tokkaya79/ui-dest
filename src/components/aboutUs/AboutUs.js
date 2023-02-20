@@ -6,7 +6,7 @@ import about3 from './img/about03.png';
 const AboutUs = () => {
     return (
         <div className="container">
-            <div className="about-us">
+            <div className="about-us flex">
                 <div className="content">
                     <h2 className="title">About US</h2>
                     <p className='text'>

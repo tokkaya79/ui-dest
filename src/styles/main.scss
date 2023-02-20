@@ -27,6 +27,13 @@
     max-width: 81rem;
     margin: 0 auto;
 }
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    padding: 0.5rem;
+    margin-bottom: 4rem;
+}
 .title {
     font-family: 'Roboto Mono', monospace;
     font-weight: 770;
@@ -48,3 +55,4 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 770;
 }
+

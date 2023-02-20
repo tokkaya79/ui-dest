@@ -6,7 +6,7 @@ import bgImg from './img/img-header.png';
 const HeaderContent = () => {
     return (
         <div className="container">
-            <div className="header-content">
+            <div className="header-content flex">
                 <div className="text-box">
                     <h1>
                         Just <span>Eat healthy</span> food to live a healthier

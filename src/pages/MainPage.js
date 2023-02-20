@@ -4,6 +4,7 @@ import CookedBy from '../components/cookedBy/CookedBy';
 import FreshVeg from '../components/freshVeg/FreshVeg';
 import Header from '../components/header/Header';
 import HeaderContent from '../components/headerContent/HeaderContent';
+import SpecialDish from '../components/specialDish/SpecialDish';
 
 function MainPage() {
     return (
@@ -15,6 +16,7 @@ function MainPage() {
                 <AboutUs />
                 <FreshVeg />
                 <CookedBy />
+                <SpecialDish />
             </main>
         </>
     );

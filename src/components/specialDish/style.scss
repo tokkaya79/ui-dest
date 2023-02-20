@@ -1,0 +1,26 @@
+.special-dish {
+    text-align: center;
+    margin-bottom: 4rem;
+    padding: 0.5rem;
+    & .cards-box {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        row-gap: 4rem;
+        margin: 4rem 0;
+        & .card {
+            max-width: 23.3rem;
+            border: 1px solid #ebebeb;
+            border-radius: 20px;
+            padding: 3.3rem 3rem;
+            cursor: pointer;
+            &:hover {
+                border: #ffffff;
+                box-shadow: -15px -50px 81px #FFFFFF, 10px 20px 70px rgba(71, 68, 68, 0.08);;
+            }
+            & .subtitle {
+                margin: 1.5rem 0 1.2rem;
+            }
+        }
+    }
+}

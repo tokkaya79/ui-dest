@@ -1,0 +1,20 @@
+.cooked-by {
+    & .content {
+        max-width: 34rem;
+    }
+     & .title {
+        margin-bottom: 2rem;
+    }
+    & .text {
+        margin-bottom: 3rem;
+    }
+     & li .text {
+        display: inline-block;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+     & span img{
+       padding-top: 8px;
+    }
+
+}

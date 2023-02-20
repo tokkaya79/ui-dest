@@ -7,7 +7,7 @@ const HeaderContent = () => {
     return (
         <div className="container">
             <div className="header-content flex">
-                <div className="text-box">
+                <div className="content">
                     <h1>
                         Just <span>Eat healthy</span> food to live a healthier
                         life
@@ -19,8 +19,8 @@ const HeaderContent = () => {
                     </p>
                     <Btn />
                 </div>
-                <div className='img-box'>
-                    <img className='bg-header' src={bgHeader} alt="bg-header" />
+                <div className='img-box'> 
+                    {/* <img className='img-header' src={bgHeader} alt="bg-img" /> */}
                     <img className='img-header' src={bgImg} alt="bg-img" />
                 </div>
             </div>

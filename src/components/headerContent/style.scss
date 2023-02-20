@@ -1,6 +1,6 @@
 .header-content {
-    position: relative;
-    & .text-box {
+    // position: relative;
+    & .content {
         padding: 11rem 0 10rem 4rem;
         max-width: 41rem;
         display: flex;
@@ -23,13 +23,11 @@
         }
     }
     & .img-box {
-        max-width: 49.4rem;
-        position: absolute;
-        right: -3.7rem;
-        top: 0;
-        & .img-header {
-            position: absolute;
-            left: 0;
-        }
+        max-width: 38.4rem;
+        position: relative;
+        background-image: url('./img/bg-header.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+       
     }
 }

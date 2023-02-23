@@ -7,52 +7,52 @@ const SpecialDish = () => {
     return (
         <div className="container">
             <div className="special-dish">
-                <h2 className="title">Special Dishes for you</h2>
-                <p className="text">
+                <h2 className="special-dish__title title">Special Dishes for you</h2>
+                <p className="special-dish__text text">
                     Made with premium & 100% Organic ingredients
                 </p>
-                <div className="cards-box">
-                    <div className="card">
-                        <div className="img-box">
+                <div className="special-dish__cards-box">
+                    <div className="special-dish__card">
+                        <div className="special-dish__img-box">
                             <img
                                 src={specialDish1}
                                 alt="icon specialDish"
                             />
                         </div>
-                        <h3 className="subtitle">Green Salad</h3>
-                        <p className="text">
+                        <h3 className="special-dish__subtitle subtitle">Green Salad</h3>
+                        <p className="special-dish__text text">
                             A salad combined witha delicious cut of bacon and
                             mixed with tasty and fresh sesome oil.
                         </p>
                     </div>
-                    <div className="card">
-                        <div className="img-box">
+                    <div className="special-dish__card">
+                        <div className="special-dish__img-box">
                             <img
                                 src={specialDish2}
                                 alt="icon specialDish"
                             />
                         </div>
-                        <h3 className="subtitle">Beef Salad</h3>
-                        <p className="text">
+                        <h3 className="special-dish__subtitle subtitle">Beef Salad</h3>
+                        <p className="special-dish__text text">
                             A salad combined witha delicious cut of bacon and
                             mixed with tasty and fresh sesome oil.
                         </p>
                     </div>
-                    <div className="card">
-                        <div className="img-box">
+                    <div className="special-dish__card">
+                        <div className="special-dish__img-box">
                             <img
                                 src={specialDish3}
                                 alt="icon specialDish"
                             />
                         </div>
-                        <h3 className="subtitle">Nut Salad</h3>
-                        <p className="text">
+                        <h3 className="special-dish__subtitle subtitle">Nut Salad</h3>
+                        <p className="special-dish__text text">
                             A salad combined witha delicious cut of bacon and
                             mixed with tasty and fresh sesome oil.
                         </p>
                     </div>
                 </div>
-                <button className='btn'>View All</button>
+                <button className='special-dish__btn btn'>View All</button>
             </div>
         </div>
     );

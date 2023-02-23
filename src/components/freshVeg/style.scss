@@ -1,13 +1,13 @@
 .fresh-veg {
     justify-content: space-between;
-    & .content{
+
+&__content{
         max-width: 35rem;
-    }
-    & .title {
+}
+&__title {
         margin-bottom: 2rem;
-    }
-    & .text {
+}
+&__text {
         margin-bottom: 3rem;
-    }
-    
+}
 }

@@ -1,25 +1,27 @@
 .choose-us {
     text-align: center;
-    & .text {
+    margin-bottom: 4rem;
+    &__text {
         margin-bottom: 4rem;
     }
-    & .preferenses,
-    .numbers {
+    &__preferenses,
+    &__numbers {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
         row-gap: 2rem;
-        & .item {
-            max-width: 16.9rem;
-            & .subtitle {
-                margin: 2rem 0;
-            }
-            & .text {
-                font-size: 1.1rem;
-            }
-        }
     }
-    & .numbers {
+    &__numbers {
         margin: 0 7rem;
     }
+    &__item {
+            max-width: 16.9rem;
+    }
+    &__subtitle {
+                margin: 2rem 0;
+    }
+    &__text-litle {
+                font-size: 1.1rem;
+    }
+
 }

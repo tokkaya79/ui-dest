@@ -1,12 +1,11 @@
-.container {
-    & .header {
+   .header {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: center;
         padding: 2.5rem 1rem;
-    }
-    & .box{
+    
+    &__box{
         display: flex;
         & .btn-order{
             margin-left: 2rem;

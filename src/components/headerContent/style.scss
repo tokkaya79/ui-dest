@@ -1,33 +1,49 @@
 .header-content {
-    // position: relative;
-    & .content {
-        padding: 11rem 0 10rem 4rem;
-        max-width: 41rem;
+    padding-bottom: 3rem;
+    
+    &__content {
         display: flex;
-        flex-direction: column;
-        & h1 {
+        align-items: center;
+    }
+
+    &__block{
+        max-width: 522px;
+    }
+
+    &__title {
             color: var(--title-text);
             font-size: 3.8rem;
             line-height: 1.2;
             font-family: 'Roboto Mono', monospace;
             font-weight: 750;
             margin-bottom: 2rem;
-            & span {
-                color: var(--green-text);
+            }     
+     &__span{
+                white-space: nowrap;
+            
+             } 
+                 &__span-green {
+                color: var(--green-text);  
             }
-        }
-        & p {
-            margin-bottom: 2rem;
-            text-align: justify;
-            width: 89%;
-        }
+
+    &__text {
+        margin-bottom: 2rem;
+        text-align: justify;
+        max-width: 500px;
+        font-size: 1.5rem;
+        line-height: 1.5;
     }
-    & .img-box {
-        max-width: 38.4rem;
-        position: relative;
-        background-image: url('./img/bg-header.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-       
+
+    &__images {
+       position: relative;
     }
+
+    &__image {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;    
+    }
+ 
 }

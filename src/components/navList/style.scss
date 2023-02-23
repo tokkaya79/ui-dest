@@ -8,6 +8,9 @@
     & .item+.item{
         margin-left: 2.5rem;
     }
+    & .item {
+        cursor: pointer;
+    }
     & .item-active {
         color: var(--green-text);
     }

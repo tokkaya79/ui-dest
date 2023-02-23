@@ -1,11 +1,11 @@
 .cooked-by {
-    & .content {
+    &__content {
         max-width: 34rem;
     }
-     & .title {
+     &__title {
         margin-bottom: 2rem;
     }
-    & .text {
+    &__text {
         margin-bottom: 3rem;
     }
      & li .text {

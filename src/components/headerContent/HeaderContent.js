@@ -5,26 +5,28 @@ import bgImg from './img/img-header.png';
 
 const HeaderContent = () => {
     return (
-        <div className="container">
-            <div className="header-content flex">
-                <div className="content">
-                    <h1>
-                        Just <span>Eat healthy</span> food to live a healthier
-                        life
-                    </h1>
-                    <p className='text'>
-                        Enjoy a healthy life by eating healthy foods that have
-                        extraordinary flavors that make your life healthier for
-                        today and in the future
-                    </p>
-                    <Btn />
-                </div>
-                <div className='img-box'> 
-                    {/* <img className='img-header' src={bgHeader} alt="bg-img" /> */}
-                    <img className='img-header' src={bgImg} alt="bg-img" />
+        <section className="header-content">
+            <div className="container">
+                <div className="header-content__content">
+                    <div className="header-content__block">
+                        <h1 className='header-content__title'>
+                            <span className='header-content__span'>Just <span className='header-content__span-green'>Eat healthy</span></span> food to live a healthier
+                            life
+                        </h1>
+                        <p className='header-content__text'>
+                            Enjoy a healthy life by eating healthy foods that have
+                            extraordinary flavors that make your life healthier for
+                            today and in the future
+                        </p>
+                        <Btn />
+                    </div>
+                    <div className='header-content__images'>
+                        <img className='header-content__image' src={bgHeader} alt="bg-img" />
+                        <img className='header-content__imageGreen' src={bgImg} alt="bg-img" />
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 export default HeaderContent;

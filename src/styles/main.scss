@@ -9,6 +9,7 @@
     --black: #181d19;
     --green: #5fb848;
     --tx-grey: #3b433e;
+    --tx-light-grey: #657582;
     --bg-grey: #494949;
     --bg-green: linear-gradient(180deg, #64bb47 0%, #2c9553 100%);
     --white: #ffff;
@@ -19,6 +20,7 @@
     --text: var(--tx-grey);
     --title-text: var(--black);
     --green-text: var(--green);
+    --light-text: var(--tx-light-grey);
     --text-order: var(--white);
     --btn-bg: var(--bg-green);
     --btn-bg-order: var(--bg-grey);

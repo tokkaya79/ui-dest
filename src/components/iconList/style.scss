@@ -1,8 +1,11 @@
 .icon-list {
     display: flex;
     align-items: center;
-    & .row {
+    &__row {
         display: flex;
+        & li {
+            cursor: pointer;
+        }
         & img {
             box-sizing: border-box;
             width: 24px;

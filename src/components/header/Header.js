@@ -11,7 +11,7 @@ const Header = () => {
             <div className="header">
                 <Logo />
                 <NavList />
-                <div className='box'>
+                <div className='header__box'>
                     <IconList />
                     <BtnOrder />
                 </div>

@@ -15,16 +15,16 @@ function MainPage() {
         <>
             <Header />
             <HeaderContent/>
-            {/* <main>
+            <main>
                 <ChooseUs />
                 <AboutUs />
                 <FreshVeg />
-                <CookedBy />
+                {/* <CookedBy />
                 <SpecialDish />
                 <HappyClients />
-                <FormLetter />
+                <FormLetter /> */}
             </main>
-            <Footer/> */}
+            {/* <Footer/> */}
         </>
     );
 }

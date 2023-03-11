@@ -1,14 +1,13 @@
 .header-content {
     margin-top: 5rem;
     padding: 5rem 1rem;
-
-    &__content {
+    &__wrapper {
         display: flex;
         align-items: center;
     }
 
     &__block {
-        max-width: 522px;
+        max-width: 32.6rem;
     }
 
     &__title {
@@ -46,5 +45,41 @@
         bottom: 0;
     }
 }
+//----------------screens---------------
+@media (max-width: 900px) {
+    .header-content {
+        &__block {
+            max-width: unset;
+            padding-right: 1rem;
+            text-align: center;
+        }
+        &__text {
+            max-width: unset;
+            text-align: center;
+        }
+        &__images {
+            display: none;
+        }
+        &__span {
+            white-space: unset;
+        }
+    }
+}
 
-
+@media (max-width: 650px) {
+    .header-content {
+        &__title {
+            font-size: 3rem;
+        }
+    }
+}
+@media (max-width: 450px) {
+    .header-content {
+        &__title {
+            font-size: 2rem;
+        }
+        &__text {
+            font-size: 1.3rem;
+        }
+    }
+}

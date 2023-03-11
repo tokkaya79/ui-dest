@@ -7,7 +7,7 @@ const HeaderContent = () => {
     return (
         <section className="header-content" id="home">
             <div className="container">
-                <div className="header-content__content">
+                <div className="header-content__wrapper">
                     <div className="header-content__block">
                         <h1 className='header-content__title'>
                             <span className='header-content__span'>Just <span className='header-content__span-green'>Eat healthy</span></span> food to live a healthier

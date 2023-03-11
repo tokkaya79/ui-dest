@@ -12,3 +12,19 @@
         margin-bottom: 3rem;
     }
 }
+
+//--------screens------------------
+@media (max-width: 1160px){
+    .fresh-veg{
+        &__inner{
+            justify-content: center;
+        }
+        &__content{
+            max-width: 90%;
+            text-align: center;
+        }
+        &__img-box{
+            order: 2;
+        }
+    }
+}

@@ -9,18 +9,18 @@ import NavList from '../navList/NavList';
 import './style.scss';
 
 const Header = () => {
-    const [isActive, setIsActive] = useState(false)
+    const [isActive, setIsActive] = useState(false);
 
     const handleClick = () => {
-        setIsActive(!isActive)
-    }
+        setIsActive(!isActive);
+    };
     const handleBurgerClick = () => {
-        handleClick()
-        const navList = document.querySelector('.nav-list')
-        const burgerMenu = document.querySelector('.burger-menu')
-        navList.classList.toggle('_active')
-        burgerMenu.classList.toggle('_active')
-    }
+        handleClick();
+        const navList = document.querySelector('.nav-list');
+        const burgerMenu = document.querySelector('.burger-menu');
+        navList.classList.toggle('_active');
+        burgerMenu.classList.toggle('_active');
+    };
 
     return (
         <section className="header">
@@ -28,10 +28,15 @@ const Header = () => {
                 <div className="header__inner">
                     <Logo />
                     <NavList />
-                    <div className="header__box">
-                        <IconList />
-                        <BtnOrder />
-                        <BurgerMenu isActive={isActive} handleClick={handleBurgerClick}/>
+                    <div className="header__user">
+                        <div className="header__box">
+                            <IconList />
+                            <BtnOrder />
+                        </div>
+                        <BurgerMenu
+                            isActive={isActive}
+                            handleClick={handleBurgerClick}
+                        />
                     </div>
                 </div>
             </div>

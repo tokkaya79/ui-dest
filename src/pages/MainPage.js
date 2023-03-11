@@ -14,8 +14,8 @@ function MainPage() {
     return (
         <>
             <Header />
-            {/* <HeaderContent/>
-            <main>
+            <HeaderContent/>
+            {/* <main>
                 <ChooseUs />
                 <AboutUs />
                 <FreshVeg />

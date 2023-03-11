@@ -12,8 +12,13 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        row-gap: 1rem;
         align-items: center;
-        padding: 1rem 1rem;
+        padding: 2rem 1rem;
+    }
+    &__user{
+        display: flex;
+        justify-content: right;
     }
 
     &__box {
@@ -25,6 +30,11 @@
     }
 }
 
-@media screen {
-    
+//--------------------screen-------------------
+@media (max-width: 540px) {
+    .header{
+        &__box {
+           display: none;
+        }
+    }
 }

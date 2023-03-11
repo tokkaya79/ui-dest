@@ -1,7 +1,11 @@
 .special-dish {
+    
+    &__inner{
+        margin-top: 5rem;
     text-align: center;
     margin-bottom: 4rem;
     padding: 0.5rem;
+    }
     &__cards-box {
         display: flex;
         justify-content: space-around;

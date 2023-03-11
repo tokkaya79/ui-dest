@@ -4,7 +4,7 @@ import './style.scss';
 const Logo = () => {
     return (
         <div className="logo">
-            <h1>UI.desk</h1>
+            <a className='logo__link' href='#home'><h1>UI.desk</h1></a>
         </div>
     );
 };

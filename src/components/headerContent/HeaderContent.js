@@ -5,7 +5,7 @@ import bgImg from './img/img-header.png';
 
 const HeaderContent = () => {
     return (
-        <section className="header-content">
+        <section className="header-content" id="home">
             <div className="container">
                 <div className="header-content__content">
                     <div className="header-content__block">

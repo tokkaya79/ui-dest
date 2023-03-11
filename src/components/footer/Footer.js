@@ -3,7 +3,7 @@ import './style.scss';
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <section className="footer">
             <div className="container">
                 <div className="footer__wrapper">
                     <ul>
@@ -72,7 +72,7 @@ const Footer = () => {
                     © Copyright 2020 by ui.desk. All right reserved.
                 </p>
             </div>
-        </div>
+        </section>
     );
 };
 export default Footer;

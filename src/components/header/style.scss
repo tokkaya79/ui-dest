@@ -1,15 +1,30 @@
-   .header {
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 7rem;
+    background-color: rgba(253, 253, 255, 0.86);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid rgb(222, 221, 221);
+    z-index: 999;
+    &__inner {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: center;
-        padding: 2.5rem 1rem;
-    
-    &__box{
+        padding: 1rem 1rem;
+    }
+
+    &__box {
         display: flex;
-        & .btn-order{
+        align-items: center;
+        & .btn-order {
             margin-left: 2rem;
         }
     }
+}
 
+@media screen {
+    
 }

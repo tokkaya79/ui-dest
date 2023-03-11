@@ -1,30 +1,30 @@
 .header-content {
-    padding-bottom: 3rem;
-    
+    margin-top: 5rem;
+    padding: 5rem 1rem;
+
     &__content {
         display: flex;
         align-items: center;
     }
 
-    &__block{
+    &__block {
         max-width: 522px;
     }
 
     &__title {
-            color: var(--title-text);
-            font-size: 3.8rem;
-            line-height: 1.2;
-            font-family: 'Roboto Mono', monospace;
-            font-weight: 750;
-            margin-bottom: 2rem;
-            }     
-     &__span{
-                white-space: nowrap;
-            
-             } 
-                 &__span-green {
-                color: var(--green-text);  
-            }
+        color: var(--title-text);
+        font-size: 3.8rem;
+        line-height: 1.2;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 750;
+        margin-bottom: 2rem;
+    }
+    &__span {
+        white-space: nowrap;
+    }
+    &__span-green {
+        color: var(--green-text);
+    }
 
     &__text {
         margin-bottom: 2rem;
@@ -35,7 +35,7 @@
     }
 
     &__images {
-       position: relative;
+        position: relative;
     }
 
     &__image {
@@ -43,7 +43,6 @@
         top: 0;
         right: 0;
         left: 0;
-        bottom: 0;    
+        bottom: 0;
     }
- 
 }

@@ -17,7 +17,7 @@ const CookedBy = () => {
                             Thirty for remove plenty regard you summer though.
                             He preference connection astonished on of ye.
                         </p>
-                        <ul>
+                        <ul className="cooked-by__list">
                             <li>
                                 <span>
                                     <img

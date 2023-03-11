@@ -19,10 +19,10 @@ function MainPage() {
                 <ChooseUs />
                 <AboutUs />
                 <FreshVeg />
-                {/* <CookedBy />
+                <CookedBy />
                 <SpecialDish />
                 <HappyClients />
-                <FormLetter /> */}
+                {/*<FormLetter /> */}
             </main>
             {/* <Footer/> */}
         </>

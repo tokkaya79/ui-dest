@@ -9,6 +9,7 @@ import arrowNextDisb from './img/arrowNextDisb.svg';
 import './style.scss';
 
 const Slider = ({ reviews }) => {
+    
     const [currentPairIndex, setCurrentPairIndex] = useState(0);
 
     const sliderItemsPairs = reviews.reduce((acc, _, index) => {
@@ -35,8 +36,8 @@ const Slider = ({ reviews }) => {
     };
 
     return (
-        <div className="slider flex">
-            <div className="slider__box">
+        <div className="slider">
+            <div className="slider__box flex">
                 {sliderItemsPairs.map((pair, index) => (
                     <SliderItemPair
                         key={index}

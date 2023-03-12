@@ -26,6 +26,7 @@ const EmailInputForm = () => {
         const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return re.test(email);
     }
+    
 
     function sendEmail() {
         alert('Your email successfully sent');
@@ -34,7 +35,7 @@ const EmailInputForm = () => {
 
     return (
         <form
-            className="address-form"
+            className="address-form flex"
             onSubmit={handleSubmit}
         >
             <label className="address-form__label">

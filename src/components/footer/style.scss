@@ -1,11 +1,10 @@
 .footer {
     background-color: #fcfcfc;
     &__wrapper {
-        padding: 7rem 1rem;
+        padding: 4rem 1rem;
         display: flex;
         justify-content: space-between;
-        column-gap: 8rem;
-        flex-wrap: wrap;
+        gap: 1rem;
         & ul:first-child {
             max-width: 300px;
             & p {
@@ -35,6 +34,20 @@
         &-text {
             color: var(--text-order);
             letter-spacing: 2px;
+        }
+    }
+}
+//-------------------screens------------------
+@media (max-width: 700px) {
+    .footer {
+        &__wrapper {
+            flex-wrap: wrap;
+            padding: 3rem 1rem;
+        }
+        &__copyright{
+            padding: 0 0.5rem;
+            font-size: 1rem;
+            text-align: center;
         }
     }
 }

@@ -1,20 +1,41 @@
 .form-letter{
     text-align: center;
-    padding: 7.5rem 1rem 9.4rem;
+    padding: 5rem 1rem;
     &__form-box{
         margin-top: 5rem;
     }
     & input{
-        width: 20.6rem;
+        max-width: 20.6rem;
         height: 4rem;
-        border: 1.5px solid #F5F5F5;
+        border: 1.5px solid #c3c3c3;
         border-radius: 165px;
         padding: 2rem 1rem;
         box-sizing: border-box;
-        margin-right: 1rem;
         font-size: 18px;
         font-weight: 400;
         color: #a3a3a37a;
         letter-spacing: 2px;
+    }
+
+}
+.address-form{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+//---------------screens--------------
+@media (max-width: 1300px){
+    .form-letter{
+       padding: 4rem 1rem 5rem; 
+    }
+}
+@media (max-width: 800px){
+    .form-letter{
+       padding: 2rem 1rem 3rem; 
+    }
+}
+@media (max-width: 600px){
+    .form-letter{
+       padding: 0;  
     }
 }

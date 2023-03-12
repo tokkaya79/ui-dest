@@ -9,6 +9,8 @@ import Header from '../components/header/Header';
 import HeaderContent from '../components/headerContent/HeaderContent';
 import SpecialDish from '../components/specialDish/SpecialDish';
 
+import { reviews } from '../components/slider/helpers/ReviewList';
+
 
 function MainPage() {
     return (
@@ -21,10 +23,10 @@ function MainPage() {
                 <FreshVeg />
                 <CookedBy />
                 <SpecialDish />
-                <HappyClients />
-                {/*<FormLetter /> */}
+                <HappyClients  reviews={reviews}/>
+                <FormLetter />
             </main>
-            {/* <Footer/> */}
+            <Footer/>
         </>
     );
 }

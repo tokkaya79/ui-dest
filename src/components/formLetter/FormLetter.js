@@ -1,5 +1,5 @@
-import EmailInputForm from './EmailInputForm'
-import './style.scss'
+import EmailInputForm from './EmailInputForm';
+import './style.scss';
 
 const FormLetter = () => {
     return (

@@ -28,14 +28,6 @@
     }
 }
 //-------screens------------------
-@media (max-width: 1300px) {
-    .about-us {
-        &__content {
-            max-width: 30rem;
-            margin-right: 4rem;
-        }
-    }
-}
 
 @media (max-width: 1300px) {
     .about-us {
@@ -49,6 +41,9 @@
         }
         &__title {
             margin: 0 0 2rem;
+        }
+        &__img-box {
+            margin: 0 1rem;
         }
     }
 }

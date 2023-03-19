@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/ui-desk/static/css/main.350e6c0c.css",
+    "main.js": "/ui-desk/static/js/main.81d800e5.js",
+    "static/media/freshVeg.webp": "/ui-desk/static/media/freshVeg.7bcefbcdb02acb0ce1a0.webp",
+    "static/media/about03.webp": "/ui-desk/static/media/about03.974fcbb289dd4b2816de.webp",
+    "static/media/about01.webp": "/ui-desk/static/media/about01.913ca6286dae66a76db0.webp",
+    "static/media/specialDish02.webp": "/ui-desk/static/media/specialDish02.92f12cddbf6afae3e87b.webp",
+    "static/media/about02.webp": "/ui-desk/static/media/about02.06d87bb704b2d51846a6.webp",
+    "static/media/specialDish03.webp": "/ui-desk/static/media/specialDish03.204a6445c0fa550f0a6d.webp",
+    "static/media/specialDish01.webp": "/ui-desk/static/media/specialDish01.e7ae029b04891ac1b488.webp",
+    "static/media/img-header.webp": "/ui-desk/static/media/img-header.c11c6f0768967ec8e7e3.webp",
+    "static/media/bg-header.webp": "/ui-desk/static/media/bg-header.ce45bbf3e1f244546430.webp",
+    "static/media/cookedBy.webp": "/ui-desk/static/media/cookedBy.5e940068accda564b7bb.webp",
+    "static/media/avatar1.png": "/ui-desk/static/media/avatar1.df8bccca28affa433385.png",
+    "static/media/avatar4.png": "/ui-desk/static/media/avatar4.df8bccca28affa433385.png",
+    "static/media/avatar2.png": "/ui-desk/static/media/avatar2.2c6b84234f3413131953.png",
+    "static/media/avatar3.png": "/ui-desk/static/media/avatar3.2c6b84234f3413131953.png",
+    "static/media/cart.svg": "/ui-desk/static/media/cart.3297200c707870baee52cfe2cb8c9684.svg",
+    "index.html": "/ui-desk/index.html",
+    "static/media/search.svg": "/ui-desk/static/media/search.71b24013e2bbe9fb30660a35e67a249f.svg",
+    "static/media/checkMark.svg": "/ui-desk/static/media/checkMark.93be34eda961ad16e59b836c13f9ab0e.svg",
+    "static/media/arrowNext.svg": "/ui-desk/static/media/arrowNext.b566d5db534dfdb11b8e763c409dea0d.svg",
+    "static/media/arrowNextDisb.svg": "/ui-desk/static/media/arrowNextDisb.68c264d813c1dd5ff0ef372697f82884.svg",
+    "static/media/arrowPrevDisb.svg": "/ui-desk/static/media/arrowPrevDisb.c3cb7da64c92e01832dacc163f2512a9.svg",
+    "static/media/arrowPrev.svg": "/ui-desk/static/media/arrowPrev.5e34ba43951d375d498ab757c98a6e9e.svg",
+    "main.350e6c0c.css.map": "/ui-desk/static/css/main.350e6c0c.css.map",
+    "main.81d800e5.js.map": "/ui-desk/static/js/main.81d800e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.350e6c0c.css",
+    "static/js/main.81d800e5.js"
+  ]
+}

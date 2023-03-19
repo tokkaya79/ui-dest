@@ -25,11 +25,7 @@
     --btn-bg: var(--bg-green);
     --btn-bg-order: var(--bg-grey);
 }
-body.lock .header{
-  background-color: #5eb848a6;
-  backdrop-filter: blur(6px);
-  border-bottom: 1px solid #5fb848;
-}
+
 .container {
     max-width: 81rem;
     margin: 0 auto;
@@ -68,6 +64,20 @@ body.lock .header{
 }
 
 //------------screens----------------------
+
+@media (max-width: 900px){
+    body.lock {
+  overflow: hidden;
+}
+body.lock .header{
+  background-color: #5eb848a6;
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid #5fb848;
+}
+  
+   
+}
+
 @media (max-width: 700px){
   .title {
     font-size: 3rem;

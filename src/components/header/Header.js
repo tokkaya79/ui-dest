@@ -9,7 +9,6 @@ import NavList from '../navList/NavList';
 import './style.scss';
 
 const Header = () => {
-
     const [isActive, setIsActive] = useState(false);
 
     const navListRef = useRef(null);
@@ -26,7 +25,8 @@ const Header = () => {
     };
 
     useEffect(() => {
-        if (isActive) {
+        const screenWidth = window.innerWidth;
+        if (isActive && screenWidth <= 900) {
             document.body.classList.add('lock');
         } else {
             document.body.classList.remove('lock');
@@ -46,7 +46,11 @@ const Header = () => {
                     <div className="header__user">
                         <div className="header__box">
                             <IconList />
-                            <BtnOrder className='header__btn-order' color='var(--btn-bg-order)' text='Order Now'/>
+                            <BtnOrder
+                                className="header__btn-order"
+                                color="var(--btn-bg-order)"
+                                text="Order Now"
+                            />
                         </div>
                         <BurgerMenu
                             isActive={isActive}

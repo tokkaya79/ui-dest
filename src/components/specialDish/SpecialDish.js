@@ -1,7 +1,9 @@
+import Btn from '../btn/Btn';
+import specialDish1 from './img/specialDish01.webp';
+import specialDish2 from './img/specialDish02.webp';
+import specialDish3 from './img/specialDish03.webp';
+
 import './style.scss';
-import specialDish1 from './img/specialDish01.png';
-import specialDish2 from './img/specialDish02.png';
-import specialDish3 from './img/specialDish03.png';
 
 const SpecialDish = () => {
     return (
@@ -61,7 +63,7 @@ const SpecialDish = () => {
                             </p>
                         </div>
                     </div>
-                    <button className="special-dish__btn btn">View All</button>
+                    <Btn className="special-dish__btn btn" text='View All' />
                 </div>
             </div>
         </section>

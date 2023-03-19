@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Btn from '../btn/Btn';
 import './style.scss';
 
 const EmailInputForm = () => {
@@ -48,12 +49,11 @@ const EmailInputForm = () => {
                     required
                 />
             </label>
-            <button
+            <Btn
                 className="address-form__btn btn"
                 type="submit"
-            >
-                Get Started
-            </button>
+                text='Get Started'
+            />
         </form>
     );
 };

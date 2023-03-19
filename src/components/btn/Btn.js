@@ -1,9 +1,11 @@
 import './style.scss';
 
-const Btn = () => {
+const Btn = (props) => {
+    const {text, color} = props
+    
     return (
         <>
-            <button className='btn'>Lern more</button>
+            <button className='btn' style={{ backgroundColor: color }}>{text}</button>
         </>
     )
 }

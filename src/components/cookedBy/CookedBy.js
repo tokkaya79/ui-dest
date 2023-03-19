@@ -1,5 +1,5 @@
 import './style.scss';
-import cookedBy from './img/cookedBy.png';
+import cookedBy from './img/cookedBy.webp';
 import checkMark from './img/checkMark.svg';
 
 const CookedBy = () => {

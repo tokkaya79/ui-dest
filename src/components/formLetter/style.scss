@@ -22,7 +22,8 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    gap: 1rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
 }
 //---------------screens--------------
 @media (max-width: 1300px){
@@ -37,6 +38,6 @@
 }
 @media (max-width: 600px){
     .form-letter{
-       padding: 0;  
+       padding: 0.5rem;  
     }
 }

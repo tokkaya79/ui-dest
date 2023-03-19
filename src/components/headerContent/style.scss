@@ -37,12 +37,15 @@
         position: relative;
     }
 
-    &__image {
+    &__image-bg {
         position: absolute;
-        top: 0;
+        top: -70px;
         right: 0;
         left: 0;
         bottom: 0;
+        height: 110%;
+        width: 100%;
+        
     }
 }
 //----------------screens---------------

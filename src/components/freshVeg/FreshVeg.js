@@ -1,5 +1,8 @@
+import Btn from '../btn/Btn';
+
+import freshVeg from './img/freshVeg.webp';
+
 import './style.scss';
-import freshVeg from './img/freshVeg.png';
 
 const FreshVeg = () => {
     return (
@@ -22,9 +25,7 @@ const FreshVeg = () => {
                             shy. Request norland neither mistake for yet.
                             Between the for morning assured country believe.
                         </p>
-                        <button className="fresh-veg__btn btn">
-                            learn more
-                        </button>
+                        <Btn className="fresh-veg__btn btn" text='learn more' /> 
                     </div>
                 </div>
             </div>

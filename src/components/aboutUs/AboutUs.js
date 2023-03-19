@@ -1,7 +1,10 @@
+import Btn from '../btn/Btn';
+
+import about1 from './img/about01.webp';
+import about2 from './img/about02.webp';
+import about3 from './img/about03.webp';
+
 import './style.scss';
-import about1 from './img/about01.png';
-import about2 from './img/about02.png';
-import about3 from './img/about03.png';
 
 const AboutUs = () => {
     return (
@@ -19,9 +22,7 @@ const AboutUs = () => {
                             processed foods such as crackers, drinks, and frozen
                             meals.
                         </p>
-                        <button className="about-us__btn btn">
-                            Learn More
-                        </button>
+                        <Btn className="about-us__btn btn" text='Learn More'/>
                     </div>
                     <div className="about-us__img-box">
                         <div className="about-us__box1">

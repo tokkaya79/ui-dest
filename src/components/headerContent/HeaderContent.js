@@ -1,9 +1,12 @@
-import './style.scss';
 import Btn from '../btn/Btn';
-import bgHeader from './img/bg-header.png';
-import bgImg from './img/img-header.png';
+
+import bgHeader from './img/bg-header.webp';
+import imgHeader from './img/img-header.webp';
+
+import './style.scss';
 
 const HeaderContent = () => {
+
     return (
         <section className="header-content" id="home">
             <div className="container">
@@ -18,11 +21,11 @@ const HeaderContent = () => {
                             extraordinary flavors that make your life healthier for
                             today and in the future
                         </p>
-                        <Btn />
+                        <Btn text='Order Now' style={{ backgroundColor: `var(--bg-green)` }}/>
                     </div>
                     <div className='header-content__images'>
-                        <img className='header-content__image' src={bgHeader} alt="bg-img" />
-                        <img className='header-content__imageGreen' src={bgImg} alt="bg-img" />
+                        <img className='header-content__image-bg' src={bgHeader} alt="bg-img" />
+                        <img className='header-content__image-dish'  src={imgHeader} alt="dish-img" />
                     </div>
                 </div>
             </div>
